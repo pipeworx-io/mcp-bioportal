@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-bioportal",
+  "version": "0.1.0",
+  "description": "BioPortal — NCBO's biomedical ontology repository (data.bioontology.org).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-bioportal": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "bioportal"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-bioportal.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-bf6616327625057505e783d5e0342bbb0851a8d623dda5c1c0e1dc35c641e518",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+  }
+}
