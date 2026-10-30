@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bioportal",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "BioPortal — NCBO's biomedical ontology repository (data.bioontology.org).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "bioportal",
     "gatewaySlug": "bioportal",
-    "sourceHash": "v1-d25d27962fb7d02d64b894d6e45ea468dbba671e1688b2ef21b2db626635d1ab",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-f7e1ff94ea8fa146db2a34fb297a5b3a78bfb610b895d68fa4bf8d2b72a5515d",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }
